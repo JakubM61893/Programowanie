@@ -1,0 +1,20 @@
+﻿<Window x:Class="_3_02.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3_02"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="248" Width="293">
+    <Grid Margin="0,0,0,-6">
+        <Label x:Name="lblImie" Content="Podaj imię" HorizontalAlignment="Left" Margin="36,29,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txb" HorizontalAlignment="Left" Margin="116,33,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblPlec" Content="Płeć" HorizontalAlignment="Left" Margin="53,60,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbKob" Content="Kobieta" HorizontalAlignment="Left" Margin="105,66,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbMez" Content="Mężczyzna" HorizontalAlignment="Left" Margin="176,66,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="cbx" Content="Tak" HorizontalAlignment="Left" Margin="170,97,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lbl18" Content="Czy jesteś pełnoletni?" HorizontalAlignment="Left" Margin="36,91,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btn" Content="Wyślij" HorizontalAlignment="Left" Margin="98,139,0,0" VerticalAlignment="Top" Height="63" Width="131" Click="btn_Click"/>
+
+    </Grid>
+</Window>
